@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>copyfiledll.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll">
+            <summary>Shim type of ClassLibrary1.copyfiledll</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.#ctor(ClassLibrary1.copyfiledll)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.CancelCopy">
+            <summary>Sets the shim of copyfiledll.CancelCopy()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.CheckFilenames">
+            <summary>Sets the shim of copyfiledll.CheckFilenames()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.Copy">
+            <summary>Sets the shim of copyfiledll.Copy()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.CopyAsyncICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.CopyAsync(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.Copyfiles">
+            <summary>Sets the shim of copyfiledll.Copyfiles()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.CopyfilesCallbackIAsyncResult">
+            <summary>Sets the shim of copyfiledll.CopyfilesCallback(IAsyncResult r)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.EV_copyCanceledAddcopyfiledllDEL_copyCanceled">
+            <summary>Sets the shim of copyfiledll.add_EV_copyCanceled(DEL_copyCanceled value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.EV_copyCanceledRemovecopyfiledllDEL_copyCanceled">
+            <summary>Sets the shim of copyfiledll.remove_EV_copyCanceled(DEL_copyCanceled value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.EV_copyCompleteAddcopyfiledllDEL_copyComplete">
+            <summary>Sets the shim of copyfiledll.add_EV_copyComplete(DEL_copyComplete value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.EV_copyCompleteRemovecopyfiledllDEL_copyComplete">
+            <summary>Sets the shim of copyfiledll.remove_EV_copyComplete(DEL_copyComplete value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.FileCopyUnsucessfulEventAddEventHandlerOfcopyfiledllFileCopyUnsuccessfulEventArgs">
+            <summary>Sets the shim of copyfiledll.add_FileCopyUnsucessfulEvent(EventHandler`1&lt;FileCopyUnsuccessfulEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.FileCopyUnsucessfulEventRemoveEventHandlerOfcopyfiledllFileCopyUnsuccessfulEventArgs">
+            <summary>Sets the shim of copyfiledll.remove_FileCopyUnsucessfulEvent(EventHandler`1&lt;FileCopyUnsuccessfulEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.GetFilesString">
+            <summary>Sets the shim of copyfiledll.GetFiles(String sourceDir)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.HideDiagICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.HideDiag(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.OnCopyCanceled">
+            <summary>Sets the shim of copyfiledll.OnCopyCanceled()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.OnCopyComplete">
+            <summary>Sets the shim of copyfiledll.OnCopyComplete()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.RaiseFileCopyUnsuccessfulEventStringStringDoubleString">
+            <summary>Sets the shim of copyfiledll.RaiseFileCopyUnsuccessfulEvent(String source, String destination, Double fileSize, String tag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.ShowDiagICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.ShowDiag(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.AllInstances.copyAllDirectoryInfoDirectoryInfo">
+            <summary>Sets the shim of copyfiledll.copyAll(DirectoryInfo source, DirectoryInfo target)</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.CancelCopy">
+            <summary>Sets the shim of copyfiledll.CancelCopy()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.CheckFilenames">
+            <summary>Sets the shim of copyfiledll.CheckFilenames()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ConstructorListOfStringString">
+            <summary>Sets the shim of copyfiledll.copyfiledll(List`1&lt;String&gt; sourceFiles, String destination)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ConstructorStringString">
+            <summary>Sets the shim of copyfiledll.copyfiledll(String source, String destination)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.Copy">
+            <summary>Sets the shim of copyfiledll.Copy()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.CopyAsyncICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.CopyAsync(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.Copyfiles">
+            <summary>Sets the shim of copyfiledll.Copyfiles()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.CopyfilesCallbackIAsyncResult">
+            <summary>Sets the shim of copyfiledll.CopyfilesCallback(IAsyncResult r)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.EV_copyCanceledAddcopyfiledllDEL_copyCanceled">
+            <summary>Sets the shim of copyfiledll.add_EV_copyCanceled(DEL_copyCanceled value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.EV_copyCanceledRemovecopyfiledllDEL_copyCanceled">
+            <summary>Sets the shim of copyfiledll.remove_EV_copyCanceled(DEL_copyCanceled value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.EV_copyCompleteAddcopyfiledllDEL_copyComplete">
+            <summary>Sets the shim of copyfiledll.add_EV_copyComplete(DEL_copyComplete value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.EV_copyCompleteRemovecopyfiledllDEL_copyComplete">
+            <summary>Sets the shim of copyfiledll.remove_EV_copyComplete(DEL_copyComplete value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.FileCopyUnsucessfulEventAddEventHandlerOfcopyfiledllFileCopyUnsuccessfulEventArgs">
+            <summary>Sets the shim of copyfiledll.add_FileCopyUnsucessfulEvent(EventHandler`1&lt;FileCopyUnsuccessfulEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.FileCopyUnsucessfulEventRemoveEventHandlerOfcopyfiledllFileCopyUnsuccessfulEventArgs">
+            <summary>Sets the shim of copyfiledll.remove_FileCopyUnsucessfulEvent(EventHandler`1&lt;FileCopyUnsuccessfulEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.GetFilesString">
+            <summary>Sets the shim of copyfiledll.GetFiles(String sourceDir)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.GetHResultUInt32">
+            <summary>Sets the shim of copyfiledll.GetHResult(UInt32 x)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.HResultToStringUInt32">
+            <summary>Sets the shim of copyfiledll.HResultToString(UInt32 result)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.HideDiagICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.HideDiag(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.OnCopyCanceled">
+            <summary>Sets the shim of copyfiledll.OnCopyCanceled()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.OnCopyComplete">
+            <summary>Sets the shim of copyfiledll.OnCopyComplete()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.RaiseFileCopyUnsuccessfulEventStringStringDoubleString">
+            <summary>Sets the shim of copyfiledll.RaiseFileCopyUnsuccessfulEvent(String source, String destination, Double fileSize, String tag)</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs">
+            <summary>Shim type of ClassLibrary1.copyfiledll+FileCopyUnsuccessfulEventArgs</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.#ctor(ClassLibrary1.copyfiledll.FileCopyUnsuccessfulEventArgs)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.AllInstances.HandleGet">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.get_Handle()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.AllInstances.HandleSetcopyfiledllFileHandleProcedure">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.set_Handle(FileHandleProcedure value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.AllInstances.TagGet">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.get_Tag()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.AllInstances.TagSetString">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.set_Tag(String value)</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.ConstructorStringStringDoubleString">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.FileCopyUnsuccessfulEventArgs(String source, String destination, Double fileSize, String tag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.HandleGet">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.get_Handle()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.HandleSetcopyfiledllFileHandleProcedure">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.set_Handle(FileHandleProcedure value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.TagGet">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.get_Tag()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileCopyUnsuccessfulEventArgs.TagSetString">
+            <summary>Sets the shim of FileCopyUnsuccessfulEventArgs.set_Tag(String value)</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs">
+            <summary>Shim type of ClassLibrary1.copyfiledll+FileEventArgs</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.#ctor(ClassLibrary1.copyfiledll.FileEventArgs)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.DestinationFilePathGet">
+            <summary>Sets the shim of FileEventArgs.get_DestinationFilePath()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.DestinationFilePathSetString">
+            <summary>Sets the shim of FileEventArgs.set_DestinationFilePath(String value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.FileSizeGet">
+            <summary>Sets the shim of FileEventArgs.get_FileSize()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.FileSizeSetDouble">
+            <summary>Sets the shim of FileEventArgs.set_FileSize(Double value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.SourceFilePathGet">
+            <summary>Sets the shim of FileEventArgs.get_SourceFilePath()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.AllInstances.SourceFilePathSetString">
+            <summary>Sets the shim of FileEventArgs.set_SourceFilePath(String value)</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.ConstructorStringStringDouble">
+            <summary>Sets the shim of FileEventArgs.FileEventArgs(String source, String destination, Double fileSize)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.DestinationFilePathGet">
+            <summary>Sets the shim of FileEventArgs.get_DestinationFilePath()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.DestinationFilePathSetString">
+            <summary>Sets the shim of FileEventArgs.set_DestinationFilePath(String value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.FileSizeGet">
+            <summary>Sets the shim of FileEventArgs.get_FileSize()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.FileSizeSetDouble">
+            <summary>Sets the shim of FileEventArgs.set_FileSize(Double value)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.SourceFilePathGet">
+            <summary>Sets the shim of FileEventArgs.get_SourceFilePath()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimFileEventArgs.SourceFilePathSetString">
+            <summary>Sets the shim of FileEventArgs.set_SourceFilePath(String value)</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails">
+            <summary>Shim type of ClassLibrary1.copyfiledll+ST_CopyFileDetails</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShimST_CopyFileDetails.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.ShowDiagICopyFilesDiag">
+            <summary>Sets the shim of copyfiledll.ShowDiag(ICopyFilesDiag diag)</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Shimcopyfiledll.copyAllDirectoryInfoDirectoryInfo">
+            <summary>Sets the shim of copyfiledll.copyAll(DirectoryInfo source, DirectoryInfo target)</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.StubICopyFilesDiag">
+            <summary>Stub type of ClassLibrary1.ICopyFilesDiag</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.StubICopyFilesDiag.#ctor">
+            <summary>Initializes a new instance of type StubICopyFilesDiag</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.StubICopyFilesDiag.AttachBackingFieldToSynchronizationObject">
+            <summary>Attaches delegates to emulate StubICopyFilesDiag.SynchronizationObject as a property with a backing field.</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.StubICopyFilesDiag.ClassLibrary1#ICopyFilesDiag#Hide">
+            <summary>Sets the stub of ICopyFilesDiag.Hide()</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.StubICopyFilesDiag.ClassLibrary1#ICopyFilesDiag#Show">
+            <summary>Sets the stub of ICopyFilesDiag.Show()</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.StubICopyFilesDiag.ClassLibrary1#ICopyFilesDiag#update(System.Int32,System.Int32,System.Int64,System.Int64,System.String)">
+            <summary>Sets the stub of ICopyFilesDiag.update(Int32 totalFiles, Int32 copiedFiles, Int64 totalBytes, Int64 copiedBytes, String currentFilename)</summary>
+        </member>
+        <member name="F:ClassLibrary1.Fakes.StubICopyFilesDiag.Hide">
+            <summary>Sets the stub of ICopyFilesDiag.Hide()</summary>
+        </member>
+        <member name="F:ClassLibrary1.Fakes.StubICopyFilesDiag.Show">
+            <summary>Sets the stub of ICopyFilesDiag.Show()</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.StubICopyFilesDiag.ClassLibrary1#ICopyFilesDiag#SynchronizationObject">
+            <summary>Sets the stub of ICopyFilesDiag.get_SynchronizationObject()</summary>
+        </member>
+        <member name="F:ClassLibrary1.Fakes.StubICopyFilesDiag.SynchronizationObjectGet">
+            <summary>Sets the stub of ICopyFilesDiag.get_SynchronizationObject()</summary>
+        </member>
+        <member name="F:ClassLibrary1.Fakes.StubICopyFilesDiag.SynchronizationObjectSetISynchronizeInvoke">
+            <summary>Sets the stub of ICopyFilesDiag.set_SynchronizationObject(ISynchronizeInvoke value)</summary>
+        </member>
+        <member name="F:ClassLibrary1.Fakes.StubICopyFilesDiag.UpdateInt32Int32Int64Int64String">
+            <summary>Sets the stub of ICopyFilesDiag.update(Int32 totalFiles, Int32 copiedFiles, Int64 totalBytes, Int64 copiedBytes, String currentFilename)</summary>
+        </member>
+        <member name="T:ClassLibrary1.Fakes.Stubcopyfiledll">
+            <summary>Stub type of ClassLibrary1.copyfiledll</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Stubcopyfiledll.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Stubcopyfiledll.#ctor(System.Collections.Generic.List{System.String},System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Stubcopyfiledll.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClassLibrary1.Fakes.Stubcopyfiledll.InitializeStub">
+            <summary>Initializes a new instance of type Stubcopyfiledll</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Stubcopyfiledll.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary1.Fakes.Stubcopyfiledll.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
